@@ -1,0 +1,44 @@
+// Game Documentation
+
+// General Information
+// Title: Space Battle 2
+// Description: A 2D space shooter game where the player shoots enemies, avoids damage, and achieves a high score.
+
+// Player Controls
+// Movement: Arrow keys or WASD
+// Fire Weapon: Spacebar
+// Objective: Destroy enemies, avoid bullets, and survive as long as possible.
+
+// Game Mechanics
+// - The player has 3 health points. Health decreases when hit by an enemy bullet.
+// - The game ends when the player's health reaches zero, displaying the Game Over panel.
+// - The player score increases by 1 for every enemy destroyed.
+// - The game restarts with 1 enemy and full health when the "Restart" button is clicked.
+
+// Audio Features
+// - Background Music: Plays during gameplay and loops continuously.
+// - Fire Sound: Plays every time the player fires a weapon.
+// - Game Over Sound: Plays when the Game Over panel appears.
+// - Background music volume lowers during the Game Over state.
+
+// Enemy Behavior
+// - One enemy spawns at a random position.
+// - When an enemy is destroyed, a new enemy respawns at a random location.
+// - Enemies move toward the player and fire bullets periodically.
+
+// GameManager Functions
+// - Updates and displays player health and score.
+// - Handles game restart functionality.
+// - Controls Game Over panel visibility and audio transitions.
+
+// Player Functionality
+// - Movement: Controlled via keyboard input.
+// - Shooting: Fires two bullets simultaneously from two fire points.
+// - Takes damage when hit by enemy bullets or collides with an enemy.
+
+// AudioManager Functions
+// - PlayBackgroundMusic(): Starts looping background music.
+// - PlayFireSound(): Plays the fire sound effect.
+// - PlayGameOverSound(): Plays the game over sound effect.
+// - LowerBackgroundMusic(): Lowers background music volume during Game Over.
+// - ResetBackgroundMusicVolume(): Restores background music volume on restart.
